@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../css/fonts/Poppins-Regular.eot');
+    src: url('../css/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../css/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../css/fonts/Poppins-Regular.woff') format('woff'),
+    url('../css/fonts/Poppins-Regular.ttf') format('truetype'),
+    url('../css/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 * {
     margin: 0;
     padding: 0;
@@ -31,11 +43,8 @@ header ul li {
 }
 
 header ul li a {
-    font-family: 'Poppins';
+    font: 15px/20px 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -56,11 +65,7 @@ header ul li:first-of-type {
 }
 
 header ul li:first-of-type a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+    font: 15px/20px 'Poppins';
     color: #FFFFFF;
     text-decoration: none;
     display: inline-block;
@@ -73,11 +78,7 @@ header ul li:last-of-type {
 }
 
 header ul li:last-of-type a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font: 16px/20px 'Poppins';
     letter-spacing: 0.4px;
     color: #000000;
     display: block;
@@ -88,18 +89,14 @@ header ul li:hover a {
 }
 
 section {
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
 }
 
 .section_main h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font: 14px/20px 'Poppins';
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -110,22 +107,14 @@ section {
 }
 
 .section_main h1 {
-    ont-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
+    font: 54px/59px 'Poppins';
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 
 .section_main p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font: 14px/20px 'Poppins';
     text-align: center;
     color: #C0C0C0;
 }
