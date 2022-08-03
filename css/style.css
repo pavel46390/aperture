@@ -93,6 +93,7 @@ section {
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
+    position: relative;
 }
 
 .section_main h2 {
@@ -129,4 +130,22 @@ section {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+.section_main_items li{
+    font: 12px/12px 'Poppins';
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.section_main_items{
+    position: absolute;
+    bottom: 41px;
+    right: 40px;
+}
+.section_main_items li:before{
+    content: "";
+    background-image: url("../images/1 2000s.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
 }
