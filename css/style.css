@@ -88,12 +88,13 @@ header ul li:hover a {
     color: aqua;
 }
 
-section {
+.section_main {
     background-image: url("../images/background.jpg");
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .section_main h2 {
@@ -147,5 +148,46 @@ section {
     background-image: url("../images/1 2000s.svg");
     width: 16px;
     height: 16px;
+    display: block;
     margin-right: 6px;
+}
+.section_main_items li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/f11.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.section_main_items li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/100.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+.section_main_items li:last-of-type:before{
+    content: "";
+    background-image: url("../images/iceland.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+.section_companies{
+    padding: 120px 0 100px 0;
+    background-color: black;
+}
+.section_companies h2{
+    font: 40px/42px 'Poppins';
+    text-align: center;
+    color: #FFFFFF;
+}
+.section_companies p{
+    font: 24px/30px 'Poppins';
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+    margin-bottom: 115px;
 }
