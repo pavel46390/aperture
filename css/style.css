@@ -298,7 +298,6 @@ header ul li:hover a {
 .container_help {
     max-width: 600px;
     margin: auto;
-    align-items: center;
 }
 
 .container_help h2 {
