@@ -30,6 +30,8 @@ header {
 .d_flex {
     display: flex;
     justify-content: space-between;
+    align-items: start;
+
 }
 
 .d_flex_s-a {
@@ -449,4 +451,113 @@ header ul li:hover a {
     max-width: 516px;
 }
 
+footer {
+    background-color: black;
+    padding: 100px 0 104px 0;
+}
 
+footer .container {
+    max-width: 1168px;
+}
+
+footer p {
+    font: 13px/20px 'Poppins';
+    color: #C0C0C0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.d_wrap ul li:first-of-type {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    text-decoration: none;
+    list-style: none;
+    text-align: start;
+    margin-left: 94px;
+
+}
+
+.d_wrap ul li a {
+    font: 14px/20px 'Poppins';
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+    display: block;
+    text-align: start;
+    margin-left: 94px;
+
+}
+
+.d_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.d_flex_footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #FFFFFF solid;
+    padding-bottom: 32px;
+
+}
+
+.d_flex_logo {
+    text-align: left;
+}
+
+footer h3 {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 36px;
+
+}
+.form{
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 7px 6px 7px 7px;
+
+}
+.input_email{
+    border: none;
+    padding: 7px 6px 7px 7px;
+    outline: none;
+
+}
+
+.d_flex_footer_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #FFFFFF solid;
+    padding-bottom: 32px;
+
+}
+.footer_button{
+    content: "#";
+    background-color: black;
+    width: 63px;
+    height: 30px;
+    border: 12px solid;
+    border-radius: 11px;
+    color: black;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.footer_p{
+    font: 14px/20px 'Poppins';
+    color: #C0C0C0;
+    text-align: left;
+    margin-top: 56px;
+}
+
+.social{
+    margin-top: 56px;
+    display: block;
+}
