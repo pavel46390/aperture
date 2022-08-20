@@ -211,6 +211,10 @@ header ul li:hover a {
     margin-top: 15px;
     margin-bottom: 115px;
 }
+.section_companies a{
+    display: inline-block;
+    max-width: 128px;
+}
 
 .section_mountain {
     background-image: url("../images/backgound_mountain.jpg");
@@ -488,7 +492,13 @@ footer p {
     display: block;
     text-align: start;
     margin-left: 94px;
-
+    transition: 0.3s;
+}
+.d_wrap ul li a:hover {
+    transform: scale(1.03);
+}
+.d_wrap ul li a:hover {
+    color: aqua;
 }
 
 .d_wrap {
@@ -497,15 +507,7 @@ footer p {
     justify-content: end;
 }
 
-.d_flex_footer {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: #FFFFFF solid;
-    padding-bottom: 32px;
-
-}
-
-.d_flex_logo {
+.logo_position {
     text-align: left;
 }
 
@@ -517,26 +519,33 @@ footer h3 {
     margin-top: 36px;
 
 }
+footer .footer_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .form{
     background: #FFFFFF;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     padding: 7px 6px 7px 7px;
-
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
 }
+
 .input_email{
+    font: 16px/22px 'Poppins';
     border: none;
     padding: 7px 6px 7px 7px;
     outline: none;
+    width: 287px;
 
 }
 
-.d_flex_footer_form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer_line {
     border-bottom: #FFFFFF solid;
-    padding-bottom: 32px;
+    padding-bottom: 36px;
 
 }
 .footer_button{
@@ -549,6 +558,11 @@ footer h3 {
     color: black;
     margin-right: 6px;
     margin-left: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer_button:hover{
+    transform: scale(1.03)
 }
 .footer_p{
     font: 14px/20px 'Poppins';
@@ -563,4 +577,36 @@ footer h3 {
 }
 .social li a{
     margin-right: 20px;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 23px;
+
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f137";
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 23px;
+
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f138";
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 30px;
 }
