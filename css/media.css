@@ -1,4 +1,4 @@
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 390px) {
     nav{
         display: none;
     }
@@ -215,7 +215,7 @@ footer {
     }
 
     .d_wrap {
-        display: block;
+        justify-content: space-around
     }
 
     .logo_position {
@@ -234,15 +234,15 @@ footer {
     }
     footer .footer_line{
         display: block;
-        text-align: center
     }
     .form{
         border: 0.5px solid #E5E7EB;
         border-radius: 12px;
         padding: 4px 3px 4px 4px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 36px;
+        max-width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 
     .input_email{
@@ -250,13 +250,12 @@ footer {
         border: none;
         padding: 3px 2px 3px 3px;
         outline: none;
-        width: 287px;
+        width: 200px;
 
     }
 
     .footer_line {
         border-bottom: 0.8px #FFFFFF solid;
-        display: block;
     }
     .footer_button{
         content: "#";
@@ -293,12 +292,7 @@ footer .d_flex{
     display: block;
     align-items: center;
 }
-@media screen and (max-width: 320px) {
 
-}
-@media screen and (max-width: 360px) {
-
-}
 @media screen and (max-width: 375px) {
 
 }
