@@ -41,7 +41,7 @@ header {
 
 .logo {
     margin-left: 32px;
-    margin-top: 6px;
+    margin-top: auto;
     display: inline-block;
 }
 
@@ -66,17 +66,6 @@ header ul {
 
 header ul li:hover {
     transform: scale(1.1);
-}
-
-header ul li:first-of-type {
-    margin-right: 56px;
-}
-
-header ul li:first-of-type a {
-    font: 15px/20px 'Poppins';
-    color: #FFFFFF;
-    text-decoration: none;
-    display: inline-block;
 }
 
 header ul li:last-of-type {
@@ -522,7 +511,6 @@ footer h3 {
 footer .footer_line{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .form{
     background: #FFFFFF;

@@ -10,7 +10,9 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-
+            700:{
+                items:3
+            },
             1000:{
                 items:5
             }
