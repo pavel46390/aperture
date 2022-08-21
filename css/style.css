@@ -65,7 +65,7 @@ header ul {
 }
 
 header ul li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 header ul li:first-of-type {
@@ -358,7 +358,7 @@ header ul li:hover a {
 }
 
 .section_help a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .section_what_we_do {
