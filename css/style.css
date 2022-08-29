@@ -631,6 +631,7 @@ overflow-x: hidden}
 nav {
     --transition-time: 500ms;
     right: 0;
+    top: 0;
     align-items: center;
     background: transparent;
     transform: translateX(0%);
@@ -700,7 +701,7 @@ nav .sub-menu ol li a {
 nav .sub-menu-btn {
     --icon-width: 40px;
     position: absolute;
-    top: 0%;
+    top: 3%;
     left: 85%;
     width: var(--icon-width);
     height: var(--icon-width);
@@ -731,7 +732,7 @@ nav .menu-btn {
     align-items: center;
     --icon-width: 25px;
     position: absolute;
-    top: -9px;
+    top: 15px;
     left: -15%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);
