@@ -1,0 +1,40 @@
+header {
+  background-color: black;
+  padding: 24px 0;
+}
+header ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+}
+header ul li {
+  margin-right: 32px;
+  transition: 0.3s;
+}
+header ul li:hover {
+  transform: scale(1.1);
+}
+header ul li:last-of-type {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 13px 20px 13px 20px;
+}
+header ul li:last-of-type a {
+  font: 16px/20px "Poppins";
+  letter-spacing: 0.4px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+header ul li:hover a {
+  color: aqua;
+}
+header ul li a {
+  font: 15px/20px "Poppins";
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */

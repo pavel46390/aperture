@@ -1,0 +1,33 @@
+.owl-stage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  top: 23px;
+}
+.owl-nav .owl-prev:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f137";
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 30px;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  top: 23px;
+}
+.owl-nav .owl-next:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f138";
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=carousel.css.map */

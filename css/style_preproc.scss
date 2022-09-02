@@ -1,0 +1,347 @@
+@import "media.css";
+@import "header";
+@import "mobile_menu";
+@import "carousel";
+
+
+$main_font: 'Poppins';
+$main_color: white;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.section_main {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+
+  h2 {
+    font: 14px/20px 'Poppins';
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 1px;
+  }
+
+  h1 {
+    font: 54px/59px 'Poppins';
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font: 14px/20px 'Poppins';
+    text-align: center;
+    color: #C0C0C0;
+  }
+}
+
+.section_main_items {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+
+  li {
+    font: 12px/12px 'Poppins';
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+
+    &:before {
+      content: "";
+      background-image: url("../images/1 2000s.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+
+    &:nth-child(2):before {
+      content: "";
+      background-image: url("../images/f11.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+
+    &:nth-child(3):before {
+      content: "";
+      background-image: url("../images/100.svg");
+      width: 32px;
+      height: 16px;
+      display: block;
+      margin-right: 7px;
+    }
+
+    &:last-of-type:before {
+      content: "";
+      background-image: url("../images/iceland.svg");
+      width: 10px;
+      height: 16px;
+      display: block;
+      margin-right: 5px;
+    }
+  }
+}
+
+.section_companies {
+  padding: 120px 0 100px 0;
+  background-color: black;
+
+  h3 {
+    font: 40px/42px 'Poppins';
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  p {
+    font: 24px/30px 'Poppins';
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+    margin-bottom: 115px;
+  }
+
+  a {
+    display: inline-block;
+    max-width: 128px;
+  }
+}
+
+.section_mountain {
+  background-image: url("../images/backgound_mountain.jpg");
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+
+  h3 {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  p {
+    font: 14px/20px 'Poppins';
+    color: #C0C0C0;
+    max-width: 300px;
+
+  }
+}
+
+.section_leafs {
+  background-image: url("../images/background_leafs.jpg");
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+
+  h3 {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  p {
+    font: 14px/20px 'Poppins';
+    color: #C0C0C0;
+    max-width: 300px;
+
+  }
+
+}
+
+.section_star-fall {
+  background-image: url("../images/background_star-fall.jpg");
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+
+  h3 {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  p {
+    font: 14px/20px 'Poppins';
+    color: #C0C0C0;
+    max-width: 300px;
+
+  }
+}
+
+.section_help {
+  background-color: black;
+  padding: 120px 0 108px 0;
+
+  a {
+    font: 16px/20px 'Poppins';
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+
+    &:before {
+      content: "#";
+      background-color: black;
+      width: 8px;
+      height: 8px;
+      border: 12px solid;
+      border-radius: 12px;
+      color: black;
+      margin-right: 6px;
+
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.container_help {
+  max-width: 600px;
+  margin: auto;
+
+  h2 {
+    font: 40px/42px 'Poppins';
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font: 24px/30px 'Poppins';
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+  }
+}
+
+.section_what_we_do {
+  background-color: black;
+  padding: 113px 0 100px 0;
+
+  .d_flex {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    max-width: 1168px;
+  }
+
+  h2 {
+    font: 40px/42px 'Poppins';
+    color: #FFFFFF;
+  }
+
+  p {
+    font: 23px/30px 'Poppins';
+    color: #C0C0C0;
+    margin-bottom: 42px;
+    margin-top: 15px;
+  }
+
+  .item {
+    position: relative;
+    max-width: 576px;
+    margin-bottom: 16px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .description {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+
+      p {
+        text-align: left;
+        font: 14px/20px 'Poppins';
+        color: #C0C0C0;
+      }
+
+      h4 {
+        font: 14px/20px 'Poppins';
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: left;
+      }
+    }
+
+  }
+
+  a {
+    font: 15px/20px 'Poppins';
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+
+    &:before {
+      content: "#";
+      background-color: black;
+      width: 8px;
+      height: 8px;
+      border: 12px solid;
+      border-radius: 12px;
+      color: black;
+      margin-right: 6px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+  }
+}
+@import "footer";
+
+
+
+
+
+

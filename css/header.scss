@@ -1,0 +1,45 @@
+$main_font: 'Poppins';
+$main_color: white;
+
+header {
+  background-color: black;
+  padding: 24px 0;
+
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+    li {
+      margin-right: 32px;
+      transition: 0.3s;
+      &:hover{
+        transform: scale(1.1);
+      }
+      &:last-of-type {
+        background: #FFFFFF;
+        border-radius: 14px;
+        padding: 13px 20px 13px 20px;
+      }
+      &:last-of-type a {
+        font: 16px/20px 'Poppins';
+        letter-spacing: 0.4px;
+        color: #000000;
+        display: block;
+        text-decoration: none;
+      }
+      &:hover a {
+        color: aqua;
+      }
+
+      a {
+        font: 15px/20px $main_font;
+        font-style: normal;
+        color: $main_color;
+        text-decoration: none;
+
+      }
+    }
+  }
+}
